@@ -27,7 +27,7 @@ public class ReverseLinkedList{
 
 public class LinkedList{
 	LinkedList head = null;
-	private class node{
-		
-	}
+		private class node{
+			head = new node();
+		}
 }
