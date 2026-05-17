@@ -26,6 +26,7 @@ public class ReverseLinkedList{
 }
 
 public class LinkedList{
+	LinkedList head = null;
 	private class node{
 		
 	}
