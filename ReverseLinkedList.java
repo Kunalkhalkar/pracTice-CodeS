@@ -28,8 +28,11 @@ public class ReverseLinkedList{
 public class LinkedList{
 	LinkedList head = null;
 		private class Node{
-			private Node node;
-			node(){}
+			private Node data;
+			
+			node(Node data){
+				this.data = data;
+			}
 			head = new Node();
 		}
 }
