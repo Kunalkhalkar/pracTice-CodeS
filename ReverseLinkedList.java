@@ -26,13 +26,46 @@ public class ReverseLinkedList{
 }
 
 public class LinkedList{
-	LinkedList head = null;
-		private class Node{
-			private Node data;
+	Node head = null;
+	
+		private class Node{ // inner class Node
+			private String data;
+			private Node next;
 			
-			node(Node data){
+			Node(String data){ // constructor of node
 				this.data = data;
+				this.next = null;
 			}
-			head = new Node();
 		}
+	
+	//Linked List Methods (addFirst())
+	public void addFirst(String data){
+		Node newNode = new Node(data);
+		if(head == null){
+			head = newNode;
+			return;
+		}
+		
+		newNode.next = head;
+		head = newNode;
+	}	
+	//addLast();
+	
+	public void addLast(String data){
+		Node newNode = new Node(data);
+		if(head == null){
+			head = newNode;
+			return;
+		}
+		
+		Node temp = head;
+		while(temp.next != null){ // we traverse through the linked List
+			temp = temp.next; //use temp to find last element
+		}
+		
+		temp = newNode; // when reached to last then assigned newNode to the temp.next;
+	}
+	//removeFirst()
+		
+		
 }
