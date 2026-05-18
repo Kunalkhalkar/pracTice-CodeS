@@ -66,6 +66,20 @@ public class LinkedList{
 		temp = newNode; // when reached to last then assigned newNode to the temp.next;
 	}
 	//removeFirst()
+	
+	public void removeFirst(){
+		if(head == null){
+			System.out.println("List is empty");
+			return;
+		}
+		if(head.next == null){
+			head =null;
+			return;
+		}
+		
+		head = head.next; // deleteding first node
+		
+	}
 		
 		
 }
