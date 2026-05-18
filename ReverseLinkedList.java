@@ -73,13 +73,27 @@ public class LinkedList{
 			return;
 		}
 		if(head.next == null){
-			head =null;
+			head = null;
 			return;
 		}
 		
 		head = head.next; // deleteding first node
-		
 	}
+	
+	public void removeLast(){
 		
+		if(head == null){
+			System.out.println("the List is empty");
+			return;
+		}
 		
+		Node lastTemp = null;
+		Node temp = head;
+		
+		while(temp.next != null){
+			lastTemp = temp;
+			temp = temp.next;
+		}
+		lastTemp.next = null;
+	}
 }
