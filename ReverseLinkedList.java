@@ -6,26 +6,19 @@ import java.io.*;
 
 public class ReverseLinkedList{
 	public static void main(String...x) throws Exception{
-		
-		revLinkedList(head);
+		LinkedList1 ll = new LinkedList1();
+		ll.addFirst("kunal");
+		ll.addFirst("hi,");
+		ll.addLast("hello");
+		ll.printList();
+		ll.revList();
+		ll.printList();
 	}
 	
-	public static ListNode revlist(ListNode head){
-		if (head == null || head.next == null) return head;
-		
-		ListNode prev = null, front, temp = head;
-		
-		while (temp != null){  // further steps are run until the temp reaches to the null
-			front = temp.next; //assigning front to the current's next
-			temp.next = prev; // rotating the next to the previous.
-			prev = temp;  // previous assigned to the current
-			temp = front; // temp move forward
-		}
-		return prev; //returning previous beacause last time when temp is null then prev points to the last node;
-	}
+	
 }
 
-public class LinkedList{
+public class LinkedList1{
 	Node head = null;
 	
 		private class Node{ // inner class Node
@@ -63,7 +56,7 @@ public class LinkedList{
 			temp = temp.next; //use temp to find last element
 		}
 		
-		temp = newNode; // when reached to last then assigned newNode to the temp.next;
+		temp.next = newNode; // when reached to last then assigned newNode to the temp.next;
 	}
 	//removeFirst()
 	
@@ -96,4 +89,36 @@ public class LinkedList{
 		}
 		lastTemp.next = null;
 	}
+	//reverse List
+	public void revList(){
+		if (head == null || head.next == null) return;
+		
+		Node prev = null, front, temp = head;
+		
+		while (temp != null){  // further steps are run until the temp reaches to the null
+			front = temp.next; //assigning front to the current's next
+			temp.next = prev; // rotating the next to the previous.
+			prev = temp;  // previous assigned to the current
+			temp = front; // temp move forward
+		}
+		head = prev;
+		//return prev; //returning previous beacause last time when temp is null then prev points to the last node;
+	}
+	
+	public void printList(){
+		if(head == null) {
+			System.out.println("List is Empty");
+			return;
+		}
+		
+		Node temp = head;
+		
+		while(temp != null){
+			System.out.print(temp.data + "->");
+			temp = temp.next;
+		}
+		System.out.print("null");
+		System.out.println();
+	}
+
 }
