@@ -19,6 +19,7 @@ public class LinkedList1{
 		ll.printList();
 		ll.removeFirst();
 		ll.printList();
+		ll.addFirst("kunal");
 		
 	}
 }
