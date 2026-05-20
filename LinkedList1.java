@@ -20,6 +20,7 @@ public class LinkedList1{
 		ll.removeFirst();
 		ll.printList();
 		ll.addFirst("kunal");
+		ll.addLast("is");
 		
 	}
 }
