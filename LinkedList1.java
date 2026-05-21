@@ -4,7 +4,7 @@ Linked List
 import java.util.*;
 
 public class LinkedList1{
-	public static void main(String...x){
+	public static void main(String...x) throws Exception{
 		LinkedList12 ll = new LinkedList12();
 		ll.addFirst("good");
 		ll.addFirst("is");
