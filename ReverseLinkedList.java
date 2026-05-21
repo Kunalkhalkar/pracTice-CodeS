@@ -4,7 +4,7 @@ reverse a linked list.
 import java.util.*;
 import java.io.*;
 
-public class ReverseLinkedList throws Exception{
+public class ReverseLinkedList{
 	public static void main(String...x) throws Exception{
 		LinkedList1 ll = new LinkedList1();
 		ll.addFirst("kunal");
