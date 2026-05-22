@@ -7,6 +7,7 @@ public class FindPrime{
 		
 		System.out.println("Enter the number to check prime");
 		Scanner sc = new Scanner(System.in);
+		
 		int num = sc.nextInt();
 		
 		System.out.println(checkPrime(num));
