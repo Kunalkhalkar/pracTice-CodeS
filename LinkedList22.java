@@ -1,14 +1,19 @@
 import java.util.*;
-
+import java.io.*;
 public class LinkedList22{
-	public static void main(String ...x){
+	public static void main(String ...x) throws Exception{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		Linked
-		do{
+		Linkedlist ll = new Linkedlist();
+		String str;
+		while(true){
 			System.out.println("Enter the data in Linked List");
-			String str = br.readLine();
-			
-		}while(!(str.equalsIgnoreCase("stop")));
+			str = br.readLine();
+			if((str.equalsIgnoreCase("stop"))) break;
+			ll.addLast(str);
+		}
+		
+		ll.printList();
+		
 	}
 }
 
@@ -70,5 +75,18 @@ class Linkedlist{
 			temp = temp.next;
 		}
 		
+	}
+	public void printList(){
+		if(head == null){
+			System.out.println("List is Empty");
+			return;
+		}
+		Node temp = head;
+		while(temp != null){
+			System.out.print(temp.data + " -> ");
+			temp = temp.next;
+		}
+		System.out.print("null");
+		System.out.println();
 	}
 }
