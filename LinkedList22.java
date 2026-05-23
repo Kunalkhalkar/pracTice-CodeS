@@ -3,8 +3,12 @@ import java.util.*;
 public class LinkedList22{
 	public static void main(String ...x){
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		System.out.println("Enter the data in Linked List");
-		
+		Linked
+		do{
+			System.out.println("Enter the data in Linked List");
+			String str = br.readLine();
+			
+		}while(!(str.equalsIgnoreCase("stop")));
 	}
 }
 
