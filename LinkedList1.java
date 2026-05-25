@@ -53,7 +53,7 @@ public class LinkedList12{
 	public void addLast(String data){
 		Node node = new Node(data); // node 	
 		if(head == null){
-			head = node;
+			head = node; // assigning new node to head
 			return;
 		}
 		
