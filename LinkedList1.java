@@ -51,8 +51,7 @@ public class LinkedList12{
 	}
 	
 	public void addLast(String data){
-		Node node = new Node(data);
-		
+		Node node = new Node(data); // node 	
 		if(head == null){
 			head = node;
 			return;
