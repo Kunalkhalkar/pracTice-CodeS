@@ -30,7 +30,6 @@ class Linkedlist{
 			this.data = data;
 		}
 	}
-	//
 	//methods of Linked List.
 	public void addFirst(String data){
 		Node newNode = new Node(data);
