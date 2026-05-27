@@ -56,6 +56,7 @@ class Linkedlist{
 		temp.next = newNode;
 	}
 	
+	//remove last
 	public void removeLast(){
 		if(head == null){
 			System.out.println("List is Empty");
