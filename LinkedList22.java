@@ -5,9 +5,7 @@ public class LinkedList22{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Linkedlist ll = new Linkedlist();
 		String str;
-		
 		while(true){
-			
 			System.out.println("Enter the data in Linked List");
 			str = br.readLine();
 			
@@ -32,7 +30,6 @@ class Linkedlist{
 			this.data = data;
 		}
 	}
-	//
 	//methods of Linked List.
 	public void addFirst(String data){
 		Node newNode = new Node(data);
@@ -44,7 +41,7 @@ class Linkedlist{
 		newNode.next = head;
 		head = newNode;
 	}
-	
+	//add last
 	public void addLast(String data){
 		Node newNode = new Node(data);
 		if(head == null){
@@ -59,6 +56,7 @@ class Linkedlist{
 		temp.next = newNode;
 	}
 	
+	//remove last
 	public void removeLast(){
 		if(head == null){
 			System.out.println("List is Empty");
