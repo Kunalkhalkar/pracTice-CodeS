@@ -5,9 +5,7 @@ public class LinkedList22{
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		Linkedlist ll = new Linkedlist();
 		String str;
-		
 		while(true){
-			
 			System.out.println("Enter the data in Linked List");
 			str = br.readLine();
 			
@@ -44,7 +42,7 @@ class Linkedlist{
 		newNode.next = head;
 		head = newNode;
 	}
-	
+	//add last
 	public void addLast(String data){
 		Node newNode = new Node(data);
 		if(head == null){
