@@ -78,6 +78,7 @@ class Linkedlist{
 		}
 		
 	}
+	// printing list
 	public void printList(){
 		if(head == null){
 			System.out.println("List is Empty");
