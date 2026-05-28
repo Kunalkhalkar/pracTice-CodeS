@@ -63,6 +63,7 @@ class Linkedlist{
 			return;
 		}
 		
+		//
 		if(head.next == null){
 			head = null;
 			System.out.println("Data Removed from last");
