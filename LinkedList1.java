@@ -53,7 +53,8 @@ public class LinkedList12{
 	public void addLast(String data){
 		Node node = new Node(data); // node 	
 		if(head == null){
-			head = node; // assigning new node to head
+			head = node; 
+			// assigning new node to head
 			return;
 		}
 		
@@ -63,7 +64,7 @@ public class LinkedList12{
 		}
 		temp.next = node;
 	}
-	
+	//remove last
 	public void removeLast(){
 		if(head == null){
 			System.out.println("List is Empty");
