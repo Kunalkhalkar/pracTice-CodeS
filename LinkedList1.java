@@ -85,7 +85,7 @@ public class LinkedList12{
 		}
 		secondTemp.next = null;
 	}
-	
+	//remove first
 	public void removeFirst(){
 		if(head == null){
 			System.out.println("Linked List is Empty");
