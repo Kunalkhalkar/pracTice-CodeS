@@ -23,5 +23,7 @@ class LinkedList{
 		}
 	}
 	
-	
+	public void addFirst(String data){
+		if(head == null){}
+	} 
 }
