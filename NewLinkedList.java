@@ -1,0 +1,27 @@
+/*
+new Linked list
+*/
+
+import java.util.*;
+public class NewLinkedList{
+	public static void main(String ...x){
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the String data");
+		String str = sc.next();
+	}
+}
+
+class LinkedList{
+	private Node head = null;
+	
+	class Node{
+		private String data;
+		Node next = null;
+		
+		public Node(String data){
+			this.data = data;
+		}
+	}
+	
+	
+}
