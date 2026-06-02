@@ -29,8 +29,15 @@ class LinkedList{
 			head = newNode;
 			return;
 		}
-	
+	//new Node
 		newNode.next = head;
 		head = newNode;
 	} 
+	
+	public void addLast(String data){
+		Node newNode = new Node(data);
+		if(head == null){
+			head = newNode;
+		}
+	}
 }
