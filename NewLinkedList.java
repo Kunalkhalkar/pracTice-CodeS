@@ -29,7 +29,7 @@ class LinkedList{
 			head = newNode;
 			return;
 		}
-	
+	//new Node
 		newNode.next = head;
 		head = newNode;
 	} 
