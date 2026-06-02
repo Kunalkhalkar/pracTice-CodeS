@@ -33,4 +33,8 @@ class LinkedList{
 		newNode.next = head;
 		head = newNode;
 	} 
+	
+	public void addLast(String data){
+		Node newNode = new Node(data);
+	}
 }
