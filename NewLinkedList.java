@@ -33,11 +33,34 @@ class LinkedList{
 		newNode.next = head;
 		head = newNode;
 	} 
-	
+	//add at last
 	public void addLast(String data){
 		Node newNode = new Node(data);
 		if(head == null){
 			head = newNode;
 		}
+		
+		Node temp = head;
+	
+	//loop until the next null element found
+		
+		while(temp.next == null){
+			temp = temp.next;
+		}
+		temp.next = newNode;
+	}
+	//delete First Element
+	public void deleteFirst(){
+		if(head == null){
+			System.out.println("The List Is Empty");
+			return;
+		}
+		if(head.next == null){
+			head = null;
+			System.out.println("The Element is Deleted");
+			return;
+		}
+		
+		head = head.next;
 	}
 }
