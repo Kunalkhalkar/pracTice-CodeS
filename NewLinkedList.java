@@ -33,11 +33,19 @@ class LinkedList{
 		newNode.next = head;
 		head = newNode;
 	} 
-	
+	//add at last
 	public void addLast(String data){
 		Node newNode = new Node(data);
 		if(head == null){
 			head = newNode;
 		}
+		
+		Node temp = head;
+		//loop until the next null element found
+		
+		while(temp.next == null){
+			temp = temp.next;
+		}
+		temp.next = newNode;
 	}
 }
