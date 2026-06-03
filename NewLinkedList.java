@@ -41,11 +41,26 @@ class LinkedList{
 		}
 		
 		Node temp = head;
-		//loop until the next null element found
+	
+	//loop until the next null element found
 		
 		while(temp.next == null){
 			temp = temp.next;
 		}
 		temp.next = newNode;
+	}
+	//delete First Element
+	public void deleteFirst(){
+		if(head == null){
+			System.out.println("The List Is Empty");
+			return;
+		}
+		if(head.next == null){
+			head = null;
+			System.out.println("The Element is Deleted");
+			return;
+		}
+		
+		head = head.next;
 	}
 }
