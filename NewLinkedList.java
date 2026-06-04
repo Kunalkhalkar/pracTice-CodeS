@@ -42,7 +42,6 @@ class LinkedList{
 		
 		Node temp = head;
 	
-	//loop until the next null element found
 		
 		while(temp.next == null){
 			temp = temp.next;
