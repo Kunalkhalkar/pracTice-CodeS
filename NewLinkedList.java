@@ -41,7 +41,7 @@ class LinkedList{
 		}
 		
 		Node temp = head;
-	
+	//loops
 		
 		while(temp.next == null){
 			temp = temp.next;
