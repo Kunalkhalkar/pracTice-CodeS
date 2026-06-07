@@ -17,7 +17,6 @@ public class LinkedList22{
 		
 	}
 }
-
 class Linkedlist{
 	Node head = null;
 	
