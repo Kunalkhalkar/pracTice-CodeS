@@ -8,7 +8,6 @@ public class LinkedList22{
 		while(true){
 			System.out.println("Enter the data in Linked List");
 			str = br.readLine();
-			
 			if((str.equalsIgnoreCase("stop"))) break;
 			ll.addLast(str);
 		}
