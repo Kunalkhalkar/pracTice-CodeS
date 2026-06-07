@@ -20,7 +20,6 @@ public class LinkedList22{
 
 class Linkedlist{
 	Node head = null;
-	
 	//inner class Node
 	private class Node{
 		String data;
