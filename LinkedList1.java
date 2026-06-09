@@ -95,16 +95,14 @@ public class LinkedList12{
 		
 		head = head.next;
 	}
-	// printing list
 	
+	// printing list
 	public void printList(){
 		if(head == null){
 			System.out.println("Linked List is Empty");
 			return;
 		}
-		
 		Node temp = head;
-		
 		while(temp != null){
 			System.out.print(temp.data +" -> ");
 			temp= temp.next;
