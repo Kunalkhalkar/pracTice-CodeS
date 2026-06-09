@@ -3,8 +3,8 @@ check number is prime Or not
 */
 import java.util.*;
 public class FindPrime{
-	public static void main(String...x){
-		
+	public static void main(String...x)
+	{	
 		System.out.println("Enter the number to check the prime");
 		Scanner sc = new Scanner(System.in);
 		int num = sc.nextInt();
