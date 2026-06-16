@@ -18,7 +18,7 @@ public class LinkedList1{
 		ll.addFirst("kunal");
 		ll.addLast("is");
 		ll.addLast("good");
-		
+		ll.addLast("Programmer");
 		
 	}
 }
