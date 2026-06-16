@@ -11,9 +11,7 @@ public class LinkedList22{
 			if((str.equalsIgnoreCase("stop"))) break;
 			ll.addLast(str);
 		}
-		
 		ll.printList();
-		
 	}
 }
 class Linkedlist{
