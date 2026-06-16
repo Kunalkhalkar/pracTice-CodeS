@@ -26,6 +26,7 @@ class Linkedlist{
 			this.data = data;
 		}
 	}
+	
 	//methods of Linked List.
 	public void addFirst(String data){
 		Node newNode = new Node(data);
@@ -37,6 +38,7 @@ class Linkedlist{
 		newNode.next = head;
 		head = newNode;
 	}
+	
 	//add last
 	public void addLast(String data){
 		Node newNode = new Node(data);
@@ -74,6 +76,7 @@ class Linkedlist{
 		}
 		
 	}
+	
 	// printing list
 	public void printList(){
 		if(head == null){
