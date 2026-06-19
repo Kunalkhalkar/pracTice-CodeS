@@ -60,6 +60,7 @@ public class LinkedList12{
 		}
 		temp.next = node;
 	}
+	
 	//remove last
 	public void removeLast(){
 		if(head == null){
