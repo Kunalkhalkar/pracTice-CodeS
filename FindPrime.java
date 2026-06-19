@@ -12,6 +12,7 @@ public class FindPrime{
 		int num = sc.nextInt();
 		System.out.println(checkPrime(num));
 	}
+	
 	public static boolean checkPrime(int num){
 		if(num <1) return false;
 		if(num >= 1 && num <= 3) return true;	
