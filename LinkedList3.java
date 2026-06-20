@@ -84,7 +84,9 @@ class Linkedlist{
 			System.out.print(temp.data + " -> ");
 			temp = temp.next;
 		}
+		
 		System.out.print("null");
+		System.out.println();
 		System.out.println();
 	}
 }
