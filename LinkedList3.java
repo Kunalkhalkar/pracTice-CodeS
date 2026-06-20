@@ -12,7 +12,6 @@ public class LinkedList22{
 			if((str.equalsIgnoreCase("stop"))) break;
 			ll.addLast(str);
 		}
-		
 		ll.printList();
 		
 	}
@@ -24,7 +23,6 @@ class Linkedlist{
 	private class Node{
 		String data;
 		Node next = null;
-		
 		Node(String data){
 			this.data = data;
 		}
