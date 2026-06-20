@@ -17,7 +17,6 @@ class LinkedList{
 	class Node{
 		private String data;
 		Node next = null;
-		
 		public Node(String data){
 			this.data = data;
 		}
@@ -33,6 +32,7 @@ class LinkedList{
 		newNode.next = head;
 		head = newNode;
 	} 
+	
 	//add at last
 	public void addLast(String data){
 		Node newNode = new Node(data);
