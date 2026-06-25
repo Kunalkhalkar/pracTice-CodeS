@@ -8,6 +8,7 @@ public class NewLinkedList{
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the String data");
 		String str = sc.next();
+		
 	}
 }
 
