@@ -13,6 +13,7 @@ public class ReverseLinkedList{
 		ll.printList();
 		ll.revList();
 		ll.printList();
+		
 	}
 	
 	
@@ -20,7 +21,6 @@ public class ReverseLinkedList{
 
 public class LinkedList1{
 	Node head = null;
-	
 		private class Node{ // inner class Node
 			private String data;
 			private Node next;
@@ -30,7 +30,6 @@ public class LinkedList1{
 				this.next = null;
 			}
 		}
-	
 	//Linked List Methods (addFirst())
 	public void addFirst(String data){
 		Node newNode = new Node(data);
