@@ -42,14 +42,12 @@ public class LinkedList1{
 		head = newNode;
 	}	
 	//addLast();
-	
 	public void addLast(String data){
 		Node newNode = new Node(data);
 		if(head == null){
 			head = newNode;
 			return;
 		}
-		
 		Node temp = head;
 		while(temp.next != null){ // we traverse through the linked List
 			temp = temp.next; //use temp to find last element
