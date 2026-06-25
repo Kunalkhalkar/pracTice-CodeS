@@ -23,8 +23,11 @@ class LinkedList{
 		}
 	}
 	
+	
 	public void addFirst(String data){
+	
 		Node newNode = new Node(data);
+		
 		if(head == null){
 			head = newNode;
 			return;
