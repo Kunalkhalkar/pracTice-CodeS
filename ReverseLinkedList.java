@@ -13,7 +13,6 @@ public class ReverseLinkedList{
 		ll.printList();
 		ll.revList();
 		ll.printList();
-		
 	}
 	
 	
