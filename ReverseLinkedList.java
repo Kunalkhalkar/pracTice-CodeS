@@ -29,6 +29,7 @@ public class LinkedList1{
 				this.next = null;
 			}
 		}
+	
 	//Linked List Methods (addFirst())
 	public void addFirst(String data){
 		Node newNode = new Node(data);
