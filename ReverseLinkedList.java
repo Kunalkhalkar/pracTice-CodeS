@@ -87,6 +87,7 @@ public class LinkedList1{
 		}
 		lastTemp.next = null;
 	}
+	
 	//reverse List
 	public void revList(){
 		if (head == null || head.next == null) return;
