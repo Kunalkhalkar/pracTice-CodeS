@@ -69,7 +69,8 @@ public class LinkedList1{
 		
 		head = head.next; // deleteding first node
 	}
-	
+
+	//remove last ele
 	public void removeLast(){
 		
 		if(head == null){
