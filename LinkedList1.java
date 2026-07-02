@@ -2,7 +2,6 @@
 Linked List all operations 
 */
 import java.util.*;
-
 public class LinkedList1{
 	public static void main(String...x) throws Exception{
 		LinkedList12 ll = new LinkedList12();
