@@ -22,7 +22,7 @@ public class LinkedList1{
 		
 	}
 }
-
+//linked list classs
 public class LinkedList12{
 	Node head = null;
 		private class Node{
