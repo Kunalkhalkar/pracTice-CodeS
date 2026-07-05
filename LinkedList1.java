@@ -4,9 +4,9 @@ Linked List all operations
 import java.util.*;
 public class LinkedList1{
 	//main method
-	
 	public static void main(String...x) throws Exception{
 		LinkedList12 ll = new LinkedList12();
+		//linked list methods 
 		ll.addFirst("good");
 		ll.addFirst("is");
 		ll.addLast("person");
