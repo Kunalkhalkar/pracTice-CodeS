@@ -22,8 +22,7 @@ class LinkedList{
 			this.data = data;
 		}
 	}
-	
-	
+//add element at First index	
 	public void addFirst(String data){
 	
 		Node newNode = new Node(data);
