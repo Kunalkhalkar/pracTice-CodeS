@@ -11,7 +11,7 @@ public class NewLinkedList{
 		
 	}
 }
-
+//linked list class
 class LinkedList{
 	private Node head = null;
 	
