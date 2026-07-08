@@ -50,6 +50,7 @@ class LinkedList{
 		}
 		temp.next = newNode;
 	}
+	//delete first element
 	public void deleteFirst(){
 		if(head == null){
 			System.out.println("The List Is Empty");
