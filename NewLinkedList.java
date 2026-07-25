@@ -35,14 +35,12 @@ class LinkedList{
 		newNode.next = head;
 		head = newNode;
 	} 
-	
 	//add at last
 	public void addLast(String data){
 		Node newNode = new Node(data);
 		if(head == null){
 			head = newNode;
 		}
-		
 		Node temp = head;
 	//loop 
 		while(temp.next == null){
@@ -50,6 +48,7 @@ class LinkedList{
 		}
 		temp.next = newNode;
 	}
+	
 	//delete first element
 	public void deleteFirst(){
 		if(head == null){
