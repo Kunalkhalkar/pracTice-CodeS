@@ -1,6 +1,7 @@
 /*
 check number is prime Or not
 */
+
 import java.util.Scanner;
 import java.util.*;
 
