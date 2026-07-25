@@ -1,7 +1,6 @@
 /*
 new Linked list
 */
-
 import java.util.*;
 public class NewLinkedList{
 	public static void main(String ...x){
@@ -11,6 +10,7 @@ public class NewLinkedList{
 		
 	}
 }
+
 //linked list class
 class LinkedList{
 	private Node head = null;
