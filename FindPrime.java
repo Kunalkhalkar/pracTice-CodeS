@@ -3,7 +3,6 @@ check number is prime Or not
 */
 import java.util.Scanner;
 import java.util.*;
-
 public class FindPrime{
 	//main method
 	public static void main(String...x)
