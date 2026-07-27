@@ -13,7 +13,6 @@ public class FindPrime{
 		int num = sc.nextInt();
 		System.out.println(checkPrime(num));
 	}
-	
 	//check number is prime method
 	public static boolean checkPrime(int num){
 		if(num <1) return false;
