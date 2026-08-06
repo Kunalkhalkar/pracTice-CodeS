@@ -17,7 +17,7 @@ public class FindPrime{
 		if(num < 1) return false;
 		if(num >= 1 && num <= 3) return true;	
 		//for loop to iterate
-		for(int i =2; i < Math.sqrt(num); i++){
+		for(int i = 2; i < Math.sqrt(num); i++){
 			if(num % i ==0) return false;
 		}
 		return true;
