@@ -14,7 +14,7 @@ public class FindPrime{
 	}
 	//check number is prime method
 	public static boolean checkPrime(int num){
-		if(num <1) return false;
+		if(num < 1) return false;
 		if(num >= 1 && num <= 3) return true;	
 		//for loop to iterate
 		for(int i =2; i < Math.sqrt(num); i++){
